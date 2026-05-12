@@ -17,3 +17,13 @@
 ---
 
 ¿Quieres que profundice en algún módulo en particular, agregue entidades adicionales (como `EVENTO`, `REPRODUCCION` o `CUARENTENA`), o que genere el DDL SQL para alguna de estas tablas?
+
+<img width="1112" height="523" alt="image" src="https://github.com/user-attachments/assets/ce92a0d4-eeea-4140-a95a-20dad51a03e5" />
+<img width="1099" height="493" alt="image" src="https://github.com/user-attachments/assets/c5299a16-468f-467d-87ad-48ddc195f531" />
+<img width="1100" height="542" alt="image" src="https://github.com/user-attachments/assets/51f1cd91-f562-4c94-8ee2-4237984ccc40" />
+<img width="918" height="545" alt="image" src="https://github.com/user-attachments/assets/1ca45ebe-3fb2-4860-b409-4ed421c08bc7" />
+<img width="1111" height="537" alt="image" src="https://github.com/user-attachments/assets/2447e822-6a88-4886-bef0-71cf84711281" />
+<img width="1110" height="446" alt="image" src="https://github.com/user-attachments/assets/a8b7c7ca-867f-485a-953a-90f4a62e08e6" />
+<img width="1114" height="549" alt="image" src="https://github.com/user-attachments/assets/39164e9b-0505-41af-aa05-758a42c67690" />
+<img width="915" height="549" alt="image" src="https://github.com/user-attachments/assets/beaf68dc-7192-492c-bd5c-cd4bf76de58c" />
+<img width="459" height="348" alt="image" src="https://github.com/user-attachments/assets/8922cf3f-bed0-4eda-b240-5bb01cd777ca" />
