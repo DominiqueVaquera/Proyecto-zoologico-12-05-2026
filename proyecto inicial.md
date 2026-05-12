@@ -27,3 +27,14 @@
 <img width="1114" height="549" alt="image" src="https://github.com/user-attachments/assets/39164e9b-0505-41af-aa05-758a42c67690" />
 <img width="915" height="549" alt="image" src="https://github.com/user-attachments/assets/beaf68dc-7192-492c-bd5c-cd4bf76de58c" />
 <img width="459" height="348" alt="image" src="https://github.com/user-attachments/assets/8922cf3f-bed0-4eda-b240-5bb01cd777ca" />
+
+En total son **13 entidades** organizadas en 5 módulos. Algunos criterios de diseño aplicados:
+
+- `INT` para todos los identificadores y llaves foráneas — más eficiente en índices y joins.
+- `DECIMAL` en lugar de `FLOAT` para pesos, costos y cantidades, evitando errores de redondeo.
+- `BOOLEAN` para banderas de estado (`activo`, `accesible`, `requiere_refrigeracion`).
+- `DATETIME` donde importa la hora exacta (alimentación, eventos médicos) y `DATE` donde solo el día es relevante.
+- Las restricciones `NOT NULL` / nullable están definidas por regla de negocio, no por conveniencia.
+
+¿Quieres que genere el DDL completo en SQL (CREATE TABLE con constraints), o te interesa profundizar en alguna entidad específica?}
+
