@@ -1,5 +1,6 @@
 
-Como administrador de bases de datos, aquí está el análisis de entidades para el sistema de gestión de un zoológico:Las entidades se agrupan en 5 módulos funcionales:
+Como administrador de bases de datos, aquí está el análisis de entidades para el sistema de gestión de un zoológico: 
+Las entidades se agrupan en 5 módulos funcionales:
 <img width="725" height="317" alt="image" src="https://github.com/user-attachments/assets/05c827c8-8bc2-460c-803d-2d168dd7c633" />
 
 
