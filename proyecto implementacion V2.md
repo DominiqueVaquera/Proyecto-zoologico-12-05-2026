@@ -20,4 +20,54 @@ Usa las siguientes imagenes
 <img width="608" height="363" alt="image" src="https://github.com/user-attachments/assets/3b2e8e5b-10b4-4ecf-b9e2-484f89a34d83" />
 <img width="604" height="297" alt="image" src="https://github.com/user-attachments/assets/1f483870-8643-48db-bb60-29a1a0a76cc7" />
 <img width="462" height="350" alt="image" src="https://github.com/user-attachments/assets/fe4a812a-d943-4a54-9f08-4f7a3a26903e" />
+Aquí tienes el pubspec.yaml con las dependencias esenciales para una app Flutter multiplataforma con foco en UI y navegación, orientada al sistema de gestión del zoológico:Algunas notas importantes para el proyecto:
+Para instalar todo después de copiar el pubspec.yaml, ejecuta flutter pub get. Para generar el código de Riverpod, usa dart run build_runner watch --delete-conflicting-outputs y déjalo corriendo mientras desarrollas.
+Si en el futuro agregas base de datos local o conexión a API, las dependencias cambian bastante — drift o sqflite para SQLite, y dio o http para REST. ¿Te interesa que agregue alguno de esos módulos al pubspec.yaml?
+name: zoo_manager
+description: Sistema de gestión de zoológico
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.3.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navegación
+  go_router: ^13.2.0
+
+  # Gestión de estado
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # UI y componentes
+  flutter_adaptive_scaffold: ^0.1.9
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  gap: ^3.0.1
+
+  # Iconos y temas
+  flex_color_scheme: ^7.3.1
+  hugeicons: ^0.0.7
+
+  # Utilidades
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  logger: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
+  generate: true 
 Recuerda usar colores atractivos y tenues
